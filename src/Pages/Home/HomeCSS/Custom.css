@@ -1,0 +1,13 @@
+.bg{
+    background-color: #FFD8D9;
+}
+.navbar-btn{
+    width: 102px;
+    height: 35px;
+    background-color: #72BF44;
+    color: #fff;
+}
+.navbar-btn:hover{
+    background-color: #1F398A;
+    transition: ease 0.5s;
+}

@@ -3,7 +3,7 @@ import logo from "../Assets/images/logo.png";
 import shopping from "../Assets/images/126083.png";
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 lg:px-28 py-8 bg">
+    <div className="navbar py-8 bg">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -47,33 +47,33 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal p-0">
           <li>
-            <a className="btn-sm btn-success" href="#">
+            <a className="mx-2 navbar-btn" href="#">
               Home
             </a>
           </li>
           <li>
-            <a className="btn-sm btn-success" href="#">
+            <a className="mx-2 navbar-btn" href="#">
               Shop
             </a>
           </li>
           <li>
-            <a className="btn-sm btn-success" href="#">
+            <a className="mx-2 navbar-btn" href="#">
               Contact
             </a>
           </li>
           <li>
-            <a className="btn-sm btn-success" href="#">
+            <a className="mx-2 navbar-btn" href="#">
               Login
             </a>
           </li>
         </ul>
       </div>
-      <div className="navbar-end">
-        <a href="#">
-          <img className="h-10" src={shopping} alt="" />
-        </a>
-      </div>
+      {/* <div className="navbar-end"> */}
+      <a href="#">
+        <img className="h-10" src={shopping} alt="" />
+      </a>
     </div>
+    // </div>
   );
 };
 
