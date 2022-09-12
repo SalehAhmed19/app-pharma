@@ -3,8 +3,8 @@ import avatar from "../../Assets/images/body1.png";
 
 const Banner = () => {
   return (
-    <div className="grid grid-cols-2 mt-44">
-      <div className="flex flex-col justify-center items-center">
+    <div className="grid grid-cols-2 mt-40">
+      <div className="flex flex-col justify-center">
         <h1 className="text-5xl text-blue-900 font-bold">
           What does it feel like to have COVID-19?
         </h1>
@@ -21,6 +21,7 @@ const Banner = () => {
           vigilant and continue to protect our loved ones by wearing masks,
           physically distancing and washing our hands.
         </p>
+        <button className="banner-btn">Explore Now</button>
       </div>
       <div className="flex justify-center items-center">
         <img src={avatar} alt="" />

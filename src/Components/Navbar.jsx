@@ -70,7 +70,7 @@ const Navbar = () => {
       </div>
       {/* <div className="navbar-end"> */}
       <a href="#">
-        <img className="h-10" src={shopping} alt="" />
+        <img className="h-10 ml-5 lg:block hidden" src={shopping} alt="" />
       </a>
     </div>
     // </div>
