@@ -18,3 +18,7 @@
     border-radius: 30px;
     width: 200px;
 }
+.banner-btn:hover{
+    background-color: #1F398A;
+    transition: ease 0.5s;
+}
