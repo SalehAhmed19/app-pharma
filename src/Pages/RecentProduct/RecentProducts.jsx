@@ -31,7 +31,7 @@ const RecentProducts = () => {
   return (
     <div className="py-10">
       <h2 className="pt-10 pb-5 text-center text-3xl font-bold text-blue-900">
-        Featured Products
+        Recent Products
       </h2>
       <div className="w-32 bg-red-500 h-2 mx-auto mb-10 rounded-xl"></div>
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 mx-5 lg:mx-20">
