@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../Assets/images/logo.png";
 import shopping from "../Assets/images/126083.png";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="navbar py-8 bg">
@@ -47,9 +48,9 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal p-0">
           <li>
-            <a className="mx-2 navbar-btn" href="#">
+            <Link to="/" className="mx-2 navbar-btn">
               Home
-            </a>
+            </Link>
           </li>
           <li>
             <a className="mx-2 navbar-btn" href="#">
@@ -62,9 +63,9 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a className="mx-2 navbar-btn" href="#">
+            <Link to="/login" className="mx-2 navbar-btn">
               Login
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

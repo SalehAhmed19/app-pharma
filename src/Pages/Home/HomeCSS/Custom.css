@@ -22,3 +22,14 @@
     background-color: #1F398A;
     transition: ease 0.5s;
 }
+.auth-btn{
+    background: #72BF44;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+}
+.auth-btn:hover{
+    background-color: #1F398A;
+    transition: ease 0.5s;
+}

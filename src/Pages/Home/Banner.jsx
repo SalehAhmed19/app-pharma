@@ -3,7 +3,7 @@ import avatar from "../../Assets/images/body1.png";
 
 const Banner = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 mt-40">
+    <div className="bg grid grid-cols-1 lg:grid-cols-2 pt-40 lg:px-28">
       <div className="flex flex-col justify-center mx-5">
         <h1 className="text-5xl text-blue-900 font-bold">
           What does it feel like to have COVID-19?
