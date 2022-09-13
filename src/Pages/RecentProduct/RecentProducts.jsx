@@ -29,12 +29,12 @@ const RecentProducts = () => {
     },
   ];
   return (
-    <div>
+    <div className="py-10">
       <h2 className="pt-10 pb-5 text-center text-3xl font-bold text-blue-900">
         Featured Products
       </h2>
       <div className="w-32 bg-red-500 h-2 mx-auto mb-10 rounded-xl"></div>
-      <div className="grid grid-cols-4 gap-4 mx-20">
+      <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 mx-20">
         {product.map((p) => (
           <Product key={p.id} product={p} />
         ))}
