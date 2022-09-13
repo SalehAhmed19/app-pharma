@@ -33,3 +33,11 @@
     background-color: #1F398A;
     transition: ease 0.5s;
 }
+.search-bar{
+    display: inline-block;
+    height: 35px;
+    width: 260px;
+    border-radius: 10px;
+    margin-right: 100px;
+    padding: 0 10px;
+}
