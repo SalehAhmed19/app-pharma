@@ -14,6 +14,7 @@ const CovidBanner = () => {
           Equitable access to safe and effective vaccines al to ending the
           COVID-19 pandemic.
         </p>
+        <button className="banner-btn">Buy Now</button>
       </div>
     </div>
   );
