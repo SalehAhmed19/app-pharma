@@ -5,10 +5,10 @@ const Banner = () => {
   return (
     <div className="bg grid grid-cols-1 lg:grid-cols-2 pt-40 lg:px-28">
       <div className="flex flex-col justify-center mx-5">
-        <h1 className="text-5xl text-blue-900 font-bold">
+        <h1 className="text-2xl lg:text-5xl text-blue-900 font-bold">
           What does it feel like to have COVID-19?
         </h1>
-        <h2 className="text-3xl font-bold text-green-600">
+        <h2 className="text-xl lg:text-3xl font-bold text-green-600">
           We spoke to one survivor about the short and long-term symptoms of
           COVID-19.
         </h2>
